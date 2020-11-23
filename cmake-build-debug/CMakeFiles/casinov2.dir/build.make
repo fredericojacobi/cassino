@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/fredericojacobi/Cursos/casinov2
+CMAKE_SOURCE_DIR = /Users/fredericojacobi/Cursos/cassino
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/fredericojacobi/Cursos/casinov2/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/fredericojacobi/Cursos/cassino/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/casinov2.dir/depend.make
@@ -79,55 +79,55 @@ include CMakeFiles/casinov2.dir/flags.make
 
 CMakeFiles/casinov2.dir/main.c.o: CMakeFiles/casinov2.dir/flags.make
 CMakeFiles/casinov2.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fredericojacobi/Cursos/casinov2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/casinov2.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/casinov2.dir/main.c.o   -c /Users/fredericojacobi/Cursos/casinov2/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fredericojacobi/Cursos/cassino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/casinov2.dir/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/casinov2.dir/main.c.o   -c /Users/fredericojacobi/Cursos/cassino/main.c
 
 CMakeFiles/casinov2.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/casinov2.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fredericojacobi/Cursos/casinov2/main.c > CMakeFiles/casinov2.dir/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fredericojacobi/Cursos/cassino/main.c > CMakeFiles/casinov2.dir/main.c.i
 
 CMakeFiles/casinov2.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/casinov2.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fredericojacobi/Cursos/casinov2/main.c -o CMakeFiles/casinov2.dir/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fredericojacobi/Cursos/cassino/main.c -o CMakeFiles/casinov2.dir/main.c.s
 
 CMakeFiles/casinov2.dir/roleta/roleta.c.o: CMakeFiles/casinov2.dir/flags.make
 CMakeFiles/casinov2.dir/roleta/roleta.c.o: ../roleta/roleta.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fredericojacobi/Cursos/casinov2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/casinov2.dir/roleta/roleta.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/casinov2.dir/roleta/roleta.c.o   -c /Users/fredericojacobi/Cursos/casinov2/roleta/roleta.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fredericojacobi/Cursos/cassino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/casinov2.dir/roleta/roleta.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/casinov2.dir/roleta/roleta.c.o   -c /Users/fredericojacobi/Cursos/cassino/roleta/roleta.c
 
 CMakeFiles/casinov2.dir/roleta/roleta.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/casinov2.dir/roleta/roleta.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fredericojacobi/Cursos/casinov2/roleta/roleta.c > CMakeFiles/casinov2.dir/roleta/roleta.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fredericojacobi/Cursos/cassino/roleta/roleta.c > CMakeFiles/casinov2.dir/roleta/roleta.c.i
 
 CMakeFiles/casinov2.dir/roleta/roleta.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/casinov2.dir/roleta/roleta.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fredericojacobi/Cursos/casinov2/roleta/roleta.c -o CMakeFiles/casinov2.dir/roleta/roleta.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fredericojacobi/Cursos/cassino/roleta/roleta.c -o CMakeFiles/casinov2.dir/roleta/roleta.c.s
 
 CMakeFiles/casinov2.dir/menu/menu.c.o: CMakeFiles/casinov2.dir/flags.make
 CMakeFiles/casinov2.dir/menu/menu.c.o: ../menu/menu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fredericojacobi/Cursos/casinov2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/casinov2.dir/menu/menu.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/casinov2.dir/menu/menu.c.o   -c /Users/fredericojacobi/Cursos/casinov2/menu/menu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fredericojacobi/Cursos/cassino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/casinov2.dir/menu/menu.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/casinov2.dir/menu/menu.c.o   -c /Users/fredericojacobi/Cursos/cassino/menu/menu.c
 
 CMakeFiles/casinov2.dir/menu/menu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/casinov2.dir/menu/menu.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fredericojacobi/Cursos/casinov2/menu/menu.c > CMakeFiles/casinov2.dir/menu/menu.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fredericojacobi/Cursos/cassino/menu/menu.c > CMakeFiles/casinov2.dir/menu/menu.c.i
 
 CMakeFiles/casinov2.dir/menu/menu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/casinov2.dir/menu/menu.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fredericojacobi/Cursos/casinov2/menu/menu.c -o CMakeFiles/casinov2.dir/menu/menu.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fredericojacobi/Cursos/cassino/menu/menu.c -o CMakeFiles/casinov2.dir/menu/menu.c.s
 
 CMakeFiles/casinov2.dir/jogador/jogador.c.o: CMakeFiles/casinov2.dir/flags.make
 CMakeFiles/casinov2.dir/jogador/jogador.c.o: ../jogador/jogador.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fredericojacobi/Cursos/casinov2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/casinov2.dir/jogador/jogador.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/casinov2.dir/jogador/jogador.c.o   -c /Users/fredericojacobi/Cursos/casinov2/jogador/jogador.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fredericojacobi/Cursos/cassino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/casinov2.dir/jogador/jogador.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/casinov2.dir/jogador/jogador.c.o   -c /Users/fredericojacobi/Cursos/cassino/jogador/jogador.c
 
 CMakeFiles/casinov2.dir/jogador/jogador.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/casinov2.dir/jogador/jogador.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fredericojacobi/Cursos/casinov2/jogador/jogador.c > CMakeFiles/casinov2.dir/jogador/jogador.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fredericojacobi/Cursos/cassino/jogador/jogador.c > CMakeFiles/casinov2.dir/jogador/jogador.c.i
 
 CMakeFiles/casinov2.dir/jogador/jogador.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/casinov2.dir/jogador/jogador.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fredericojacobi/Cursos/casinov2/jogador/jogador.c -o CMakeFiles/casinov2.dir/jogador/jogador.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fredericojacobi/Cursos/cassino/jogador/jogador.c -o CMakeFiles/casinov2.dir/jogador/jogador.c.s
 
 # Object files for target casinov2
 casinov2_OBJECTS = \
@@ -145,7 +145,7 @@ casinov2: CMakeFiles/casinov2.dir/menu/menu.c.o
 casinov2: CMakeFiles/casinov2.dir/jogador/jogador.c.o
 casinov2: CMakeFiles/casinov2.dir/build.make
 casinov2: CMakeFiles/casinov2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/fredericojacobi/Cursos/casinov2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable casinov2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/fredericojacobi/Cursos/cassino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable casinov2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/casinov2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -158,6 +158,6 @@ CMakeFiles/casinov2.dir/clean:
 .PHONY : CMakeFiles/casinov2.dir/clean
 
 CMakeFiles/casinov2.dir/depend:
-	cd /Users/fredericojacobi/Cursos/casinov2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/fredericojacobi/Cursos/casinov2 /Users/fredericojacobi/Cursos/casinov2 /Users/fredericojacobi/Cursos/casinov2/cmake-build-debug /Users/fredericojacobi/Cursos/casinov2/cmake-build-debug /Users/fredericojacobi/Cursos/casinov2/cmake-build-debug/CMakeFiles/casinov2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/fredericojacobi/Cursos/cassino/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/fredericojacobi/Cursos/cassino /Users/fredericojacobi/Cursos/cassino /Users/fredericojacobi/Cursos/cassino/cmake-build-debug /Users/fredericojacobi/Cursos/cassino/cmake-build-debug /Users/fredericojacobi/Cursos/cassino/cmake-build-debug/CMakeFiles/casinov2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/casinov2.dir/depend
 

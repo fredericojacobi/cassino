@@ -89,3 +89,20 @@ void menu(int saldo) {
         }
     } while (continuar);
 }
+
+
+/*
+ * Utilizado para verificar a resposta do usuário para repetir a jogada
+ */
+
+int checarResposta(char resposta, int saldo) {
+    if(resposta == 's') {
+        roleta(saldo);
+    } else if(resposta == 'n'){
+        menu(saldo);
+    } else {
+        printf("Opção inválida");
+        printf("Deseja jogar novamente?");
+        checarResposta(resposta, saldo);
+    }
+}

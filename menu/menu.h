@@ -3,7 +3,9 @@
 #ifndef CASINOV2_MENU_H
 #define CASINOV2_MENU_H
 
-void menu();
+void menu(int saldo);
+
+int checarResposta(char resposta, int saldo);
 
 void sair();
 

@@ -1,16 +1,17 @@
-
+#include <stdlib.h>
 #include <stdio.h>
-#include <string.h>
 #include "jogador.h"
 
-typedef struct jogador {
-    char nome[20];
-    int saldo;
-};
-
-void registrar(struct Jogador *jogador1){
+void registrar(struct Jogador *jogador) {
     printf("Insira seu nome:");
-    scanf("%c", &jogador1->nome);
-    printf("%c", jogador1->nome);
-
+    jogador = malloc(sizeof(jogador));
+    scanf("%s", jogador->nome);
+    printf("%s", jogador->nome);
 };
+
+void removerJogador(int idJogador) {
+    /*
+     * Aguardando pela leitura do arquivo .txt
+     */
+}
+

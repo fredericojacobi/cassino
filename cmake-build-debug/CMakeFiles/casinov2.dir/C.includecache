@@ -6,13 +6,41 @@
 
 #IncludeRegexTransform: 
 
-/Users/fredericojacobi/Cursos/casinov2/jogador/jogador.c
+/Users/fredericojacobi/Cursos/cassino/jogador/jogador.c
+stdlib.h
+-
 stdio.h
 -
-string.h
--
 jogador.h
-/Users/fredericojacobi/Cursos/casinov2/jogador/jogador.h
+/Users/fredericojacobi/Cursos/cassino/jogador/jogador.h
 
-/Users/fredericojacobi/Cursos/casinov2/jogador/jogador.h
+/Users/fredericojacobi/Cursos/cassino/jogador/jogador.h
+
+/Users/fredericojacobi/Cursos/cassino/main.c
+menu/menu.h
+/Users/fredericojacobi/Cursos/cassino/menu/menu.h
+jogador/jogador.h
+/Users/fredericojacobi/Cursos/cassino/jogador/jogador.h
+
+/Users/fredericojacobi/Cursos/cassino/menu/menu.c
+stdio.h
+-
+../roleta/roleta.h
+/Users/fredericojacobi/Cursos/cassino/roleta/roleta.h
+../jogador/jogador.h
+/Users/fredericojacobi/Cursos/cassino/jogador/jogador.h
+
+/Users/fredericojacobi/Cursos/cassino/menu/menu.h
+
+/Users/fredericojacobi/Cursos/cassino/roleta/roleta.c
+stdlib.h
+-
+stdio.h
+-
+../menu/menu.h
+/Users/fredericojacobi/Cursos/cassino/menu/menu.h
+../jogador/jogador.h
+/Users/fredericojacobi/Cursos/cassino/jogador/jogador.h
+
+/Users/fredericojacobi/Cursos/cassino/roleta/roleta.h
 

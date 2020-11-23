@@ -7,7 +7,6 @@ CMakeFiles/casinov2.dir/jogador/jogador.c.o: ../jogador/jogador.h
 CMakeFiles/casinov2.dir/main.c.o: ../jogador/jogador.h
 CMakeFiles/casinov2.dir/main.c.o: ../main.c
 CMakeFiles/casinov2.dir/main.c.o: ../menu/menu.h
-CMakeFiles/casinov2.dir/main.c.o: ../roleta/roleta.h
 
 CMakeFiles/casinov2.dir/menu/menu.c.o: ../jogador/jogador.h
 CMakeFiles/casinov2.dir/menu/menu.c.o: ../menu/menu.c

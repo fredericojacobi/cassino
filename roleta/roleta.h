@@ -5,6 +5,6 @@
 
 void rodarroleta();
 
-int roleta(struct Jogador *jogador);
+void roleta(int saldo);
 
 #endif //CASINOV2_ROLETA_H

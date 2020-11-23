@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/fredericojacobi/Cursos/casinov2/jogador/jogador.c" "/Users/fredericojacobi/Cursos/casinov2/cmake-build-debug/CMakeFiles/casinov2.dir/jogador/jogador.c.o"
-  "/Users/fredericojacobi/Cursos/casinov2/main.c" "/Users/fredericojacobi/Cursos/casinov2/cmake-build-debug/CMakeFiles/casinov2.dir/main.c.o"
-  "/Users/fredericojacobi/Cursos/casinov2/menu/menu.c" "/Users/fredericojacobi/Cursos/casinov2/cmake-build-debug/CMakeFiles/casinov2.dir/menu/menu.c.o"
-  "/Users/fredericojacobi/Cursos/casinov2/roleta/roleta.c" "/Users/fredericojacobi/Cursos/casinov2/cmake-build-debug/CMakeFiles/casinov2.dir/roleta/roleta.c.o"
+  "/Users/fredericojacobi/Cursos/cassino/jogador/jogador.c" "/Users/fredericojacobi/Cursos/cassino/cmake-build-debug/CMakeFiles/casinov2.dir/jogador/jogador.c.o"
+  "/Users/fredericojacobi/Cursos/cassino/main.c" "/Users/fredericojacobi/Cursos/cassino/cmake-build-debug/CMakeFiles/casinov2.dir/main.c.o"
+  "/Users/fredericojacobi/Cursos/cassino/menu/menu.c" "/Users/fredericojacobi/Cursos/cassino/cmake-build-debug/CMakeFiles/casinov2.dir/menu/menu.c.o"
+  "/Users/fredericojacobi/Cursos/cassino/roleta/roleta.c" "/Users/fredericojacobi/Cursos/cassino/cmake-build-debug/CMakeFiles/casinov2.dir/roleta/roleta.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
