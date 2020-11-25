@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+typedef struct Cadastro {
+    char nome[15], sobrenome[30];
+    int idade;
+    float saldo;
+} cadastro;
+
+int main()
+{
+    int TAMANHO = 3;
+    cadastro cadauxiliar, cad[4] = {
+        "Bruno", "Mossmann", 22, 10.000,
+        "Frederico", "Jacobi",21, 22.000,
+        "Cassio", "Jones", 23, 8.500,
+        
+    };
+
+    FILE *arquivo = fopen("arquivamente_cassino", "wb");
+    fwrite(cad, sizeof(cadastro), TAMANHO, arquivo);
+    fclose(arquivo);
+
+    arquivo = fopen("arquivamente_cassino", "rb");
+    fseek(arquivo,2*sizeof(cadastro), SEEK_SET);
+    fread(&cadauxiliar, sizeof(cadastro),1, arquivo);
+    printf("%s\n%s\n%d\n%.2f\n", cadauxiliar.nome, cadauxiliar.sobrenome, cadauxiliar.idade, cadauxiliar.saldo);
+    fclose(arquivo);
+    return 0;
+}
